@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.tsx",
+    "./src/**/*.test.ts",
+    "./global.d.ts",
+    "./WrapRootElement.tsx",
+    "./WrapPageElement.tsx"
+  ],
+  "exclude": ["./node_modules", "./build", "__snapshots__", "./jest.config.ts"]
+}
